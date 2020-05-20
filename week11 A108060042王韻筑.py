@@ -1,0 +1,21 @@
+print("哈囉。我是Zyxo 64。我是一個聊天機器人。")
+print("我喜歡動物，也喜歡聊食物。")
+name = input("你叫什麼名字?: ")
+print("你好", name, "很高興認識你")
+year = input("我記不太清楚日期。今年是幾年?: ")
+print("好的，我覺得沒錯。謝謝!")
+myage = input("你能猜出我的年齡嗎? - 輸入一個數字: ")
+print("沒錯，你猜對了。我", myage)
+myage = int(myage)
+nyears = 100 - myage
+print("我再", nyears, "年就滿100歲了。")
+print("到時候是", int(year) + nyears)#將年份轉換為整數
+print("我喜歡巧克力，也喜歡嘗試各種新食物。")
+food = input("你呢。你最喜歡的食物是什麼?: ")
+print("我也喜歡", food)
+question = "你多久吃一次" + food + "?: "
+howoften = input(question)
+print("真有趣。不知道這樣對健康好不好!")
+animal = input("我最喜歡的動物是長頸鹿。你呢?; ")
+print(animal, "! 我不喜歡。")
+print("不知道", animal, "喜不喜歡吃", food, "?")
